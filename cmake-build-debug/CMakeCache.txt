@@ -226,6 +226,12 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//Path to a library.
+RESAMPLING_LIB:FILEPATH=RESAMPLING_LIB-NOTFOUND
+
+//Path to a library.
+RNNOISE_LIB:FILEPATH=RNNOISE_LIB-NOTFOUND
+
 //Value Computed by CMake
 finalCode_BINARY_DIR:STATIC=/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug
 

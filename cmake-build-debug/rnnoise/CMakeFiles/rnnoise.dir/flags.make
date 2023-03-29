@@ -6,5 +6,5 @@ C_FLAGS = -g -fPIC
 
 C_DEFINES = -Drnnoise_EXPORTS
 
-C_INCLUDES = 
+C_INCLUDES = -I/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise 
 

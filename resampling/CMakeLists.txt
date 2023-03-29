@@ -23,4 +23,3 @@ add_library(resampling SHARED casyi.cpp
         xnrm2.cpp
         )
 
-#target_link_libraries(resampling m)

@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++14
 
 CXX_DEFINES = -Dresampling_EXPORTS
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise -I/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling 
 

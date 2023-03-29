@@ -34,7 +34,7 @@ int main() {
     }
 //    sts = malloc(channels * sizeof(DenoiseState *));
 
-    sts = new DenoiseState*[channels];
+    sts = new DenoiseState *[channels];
     if (!sts) {
         perror("malloc");
         return 1;
@@ -61,12 +61,22 @@ int main() {
         if (feof(f1)) break;
         // set up input and output pointers
 
+        //setting up arrays for resampling
+        coder::array<double, 1U> in;// dimension 1`d array or 2-d array
+        coder::array<double, 1U> out;
+
+        in.set_size(480);
+        out.set_size(160);
 
         for (ci = 0; ci < channels; ci++) {
 
             for (i = 0; i < FRAME_SIZE; i++) x[i] = tmp[i * channels + ci];
             rnnoise_process_frame(sts[ci], x, x);
-            for (i = 0; i < FRAME_SIZE; i++) tmp[i * channels + ci] = x[i];
+            for (int idx0 = 0; idx0 < in.size(0); idx0++) {
+                in[idx0] = x[idx0];
+            }
+            resampling(in, 16000.0, 48000.0, out);
+            for (i = 0; i < 160; i++) tmp[i * channels + ci] = out[i];
         }
 
         if (!first) fwrite(tmp, sizeof(short), channels * FRAME_SIZE, fout);
