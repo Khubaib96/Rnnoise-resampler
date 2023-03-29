@@ -282,75 +282,57 @@
 			<Option target="resampling"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/celt_lpc.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/celt_lpc.h">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/denoise.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/kiss_fft.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/kiss_fft.h">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/bd.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/cb.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/lq.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/mp.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/sh.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/pitch.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/pitch.h">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn.h">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn_data.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn_data.h">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn_reader.c">
-			<Option target="finalCode"/>
 			<Option target="rnnoise"/>
 		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/CMakeLists.txt">
