@@ -1,0 +1,3 @@
+/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/CMakeFiles/resampling.dir

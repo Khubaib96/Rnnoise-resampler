@@ -1,0 +1,9 @@
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/CMakeFiles/finalCode.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/CMakeFiles/rebuild_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/CMakeFiles/edit_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/CMakeFiles/rnnoise.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/CMakeFiles/rebuild_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/CMakeFiles/edit_cache.dir
+/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/CMakeFiles/resampling.dir

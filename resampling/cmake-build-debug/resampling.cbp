@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="resampling"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resampling">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/libresampling.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 resampling"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resampling/fast">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/libresampling.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 resampling/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/casyi.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/casyi.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmlri.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/cmlri.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/createFilter.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/createFilter.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/firls.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/firls.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/gammaln.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/gammaln.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/ipermute.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/ipermute.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/main.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/main.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/mldivide.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/mldivide.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/mod.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/mod.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_data.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_data.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_initialize.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_initialize.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_rtwutil.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_rtwutil.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_terminate.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/resampling_terminate.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/rtGetInf.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/rtGetInf.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/rtGetNaN.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/rtGetNaN.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/rt_nonfinite.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/rt_nonfinite.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/xgeqp3.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/xgeqp3.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/xnrm2.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/xnrm2.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/resample/codegen/lib/resampling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

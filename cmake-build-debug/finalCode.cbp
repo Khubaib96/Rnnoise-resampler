@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="finalCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rnnoise\;CMake Files\resampling\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="finalCode">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/finalCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 finalCode"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="finalCode/fast">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/finalCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 finalCode/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rnnoise">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/librnnoise.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 rnnoise"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rnnoise/fast">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/librnnoise.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 rnnoise/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resampling">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/libresampling.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 resampling"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resampling/fast">
+				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/libresampling.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 resampling/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/main.cpp">
+			<Option target="finalCode"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/casyi.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/casyi.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/cmlri.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/cmlri.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/createFilter.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/createFilter.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/firls.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/firls.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/gammaln.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/gammaln.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/ipermute.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/ipermute.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mldivide.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mldivide.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mod.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mod.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_data.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_data.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_initialize.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_initialize.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_rtwutil.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_rtwutil.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_terminate.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_terminate.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetInf.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetInf.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetNaN.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetNaN.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rt_nonfinite.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rt_nonfinite.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xgeqp3.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xgeqp3.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xnrm2.cpp">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xnrm2.h">
+			<Option target="resampling"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/celt_lpc.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/celt_lpc.h">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/denoise.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/kiss_fft.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/kiss_fft.h">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/bd.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/cb.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/lq.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/mp.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/models/sh.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/pitch.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/pitch.h">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn.h">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn_data.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn_data.h">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/src/rnn_reader.c">
+			<Option target="finalCode"/>
+			<Option target="rnnoise"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rnnoise\"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\resampling\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
