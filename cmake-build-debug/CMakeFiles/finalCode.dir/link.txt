@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/finalCode.dir/main.cpp.o  -o finalCode  -Wl,-rpath,/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/rnnoise:/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling rnnoise/librnnoise.so resampling/libresampling.so -lm 
+/usr/bin/c++  -g   CMakeFiles/finalCode.dir/main.cpp.o  -o finalCode  rnnoise/librnnoise.a resampling/libresampling.a 

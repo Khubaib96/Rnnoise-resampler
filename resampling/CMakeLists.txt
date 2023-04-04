@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
-project(resampling)
+#project(resampling )
 
-set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_CXX_STANDARD 14)
 
-add_library(resampling SHARED casyi.cpp
+add_library(resampling STATIC casyi.cpp
         cmlri.cpp
         createFilter.cpp
         firls.cpp

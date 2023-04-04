@@ -62,6 +62,8 @@
 #include "config.h"
 #endif
 
+//#include "rnn.h"
+//#include "rnn_data.h"
 #include "../rnn.h"
 #include "../rnn_data.h"
 

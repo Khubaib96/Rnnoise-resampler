@@ -6,5 +6,5 @@ CMakeFiles/finalCode.dir/main.cpp.o: ../resampling/coder_array.h
 CMakeFiles/finalCode.dir/main.cpp.o: ../resampling/resampling.h
 CMakeFiles/finalCode.dir/main.cpp.o: ../resampling/rtwtypes.h
 CMakeFiles/finalCode.dir/main.cpp.o: ../resampling/tmwtypes.h
-CMakeFiles/finalCode.dir/main.cpp.o: ../rnnoise/include/rnnoise-nu.h
+CMakeFiles/finalCode.dir/main.cpp.o: ../rnnoise/include/rnnoise.h
 

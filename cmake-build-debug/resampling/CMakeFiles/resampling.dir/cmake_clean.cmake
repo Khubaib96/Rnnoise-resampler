@@ -17,8 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/resampling.dir/rt_nonfinite.cpp.o"
   "CMakeFiles/resampling.dir/xgeqp3.cpp.o"
   "CMakeFiles/resampling.dir/xnrm2.cpp.o"
+  "libresampling.a"
   "libresampling.pdb"
-  "libresampling.so"
 )
 
 # Per-language clean rules from dependency scanning.

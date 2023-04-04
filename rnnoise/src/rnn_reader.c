@@ -34,7 +34,7 @@
 
 #include "rnn.h"
 #include "rnn_data.h"
-#include "../include/rnnoise-nu.h"
+#include "rnnoise.h"
 
 /* Although these values are the same as in rnn.h, we make them separate to
  * avoid accidentally burning internal values into a file format */
@@ -111,6 +111,7 @@ RNNModel *rnnoise_model_from_file(FILE *f)
 #define INPUT_DENSE(name) do { \
     INPUT_VAL(name->nb_inputs); \
     INPUT_VAL(name->nb_neurons); \
+    ret->name ## _size = name->nb_neurons; \
     INPUT_ACTIVATION(name->activation); \
     INPUT_ARRAY(name->input_weights, name->nb_inputs * name->nb_neurons); \
     INPUT_ARRAY(name->bias, name->nb_neurons); \
@@ -119,6 +120,7 @@ RNNModel *rnnoise_model_from_file(FILE *f)
 #define INPUT_GRU(name) do { \
     INPUT_VAL(name->nb_inputs); \
     INPUT_VAL(name->nb_neurons); \
+    ret->name ## _size = name->nb_neurons; \
     INPUT_ACTIVATION(name->activation); \
     INPUT_ARRAY(name->input_weights, name->nb_inputs * name->nb_neurons * 3); \
     INPUT_ARRAY(name->recurrent_weights, name->nb_neurons * name->nb_neurons * 3); \

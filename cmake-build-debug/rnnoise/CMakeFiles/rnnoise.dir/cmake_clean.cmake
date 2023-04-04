@@ -12,8 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rnnoise.dir/src/rnn.c.o"
   "CMakeFiles/rnnoise.dir/src/rnn_data.c.o"
   "CMakeFiles/rnnoise.dir/src/rnn_reader.c.o"
+  "librnnoise.a"
   "librnnoise.pdb"
-  "librnnoise.so"
 )
 
 # Per-language clean rules from dependency scanning.

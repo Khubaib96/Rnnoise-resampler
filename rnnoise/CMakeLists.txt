@@ -1,8 +1,10 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+cmake_minimum_required(VERSION 3.16)
 
-project(rnnoise)
+set(distribution_DI ${CMAKE_CURRENT_SOURCE_DIR}/../../../../distribution/test)
 
-add_library(rnnoise SHARED
+include_directories(include)
+include_directories(src)
+add_library(rnnoise STATIC
         src/celt_lpc.c
         src/denoise.c
         src/kiss_fft.c
@@ -18,4 +20,7 @@ add_library(rnnoise SHARED
         src/models/sh.c
         )
 
-target_link_libraries(rnnoise m)
+#install(TARGETS rnnoise DESTINATION ${distribution_DI}/usr/lib)
+install(TARGETS rnnoise DESTINATION lib)
+
+#target_link_libraries(rnnoise)

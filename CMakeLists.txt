@@ -9,8 +9,7 @@ add_subdirectory(rnnoise)
 include_directories(resampling)
 add_subdirectory(resampling)
 
-
 add_executable(finalCode main.cpp)
 
-target_include_directories(finalCode PUBLIC rnnoise)
-target_link_libraries(finalCode rnnoise resampling)
+target_include_directories(finalCode PUBLIC rnnoise resampling)
+target_link_libraries(finalCode PUBLIC rnnoise resampling)

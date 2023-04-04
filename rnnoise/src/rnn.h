@@ -27,7 +27,7 @@
 #ifndef RNN_H_
 #define RNN_H_
 
-#include "../include/rnnoise-nu.h"
+#include "rnnoise.h"
 
 #include "opus_types.h"
 
@@ -66,4 +66,4 @@ void compute_gru(const GRULayer *gru, float *state, const float *input);
 
 void compute_rnn(RNNState *rnn, float *gains, float *vad, const float *input);
 
-#endif /* _MLP_H_ */
+#endif /* RNN_H_ */

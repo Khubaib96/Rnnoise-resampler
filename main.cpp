@@ -1,6 +1,6 @@
 #include <iostream>
 #include <valarray>
-#include "rnnoise/include/rnnoise-nu.h"
+#include "rnnoise/include/rnnoise.h"
 #include "resampling/resampling.h"
 
 #define FRAME_SIZE 480
@@ -11,6 +11,7 @@ int main() {
     int channels;
     float x[FRAME_SIZE];
     short *tmp;
+    short *outtmp;
     int sample_rate;
     RNNModel *model = NULL;
     DenoiseState **sts;
@@ -32,15 +33,14 @@ int main() {
         fprintf(stderr, "Model not found!\n");
         return 1;
     }
-//    sts = malloc(channels * sizeof(DenoiseState *));
 
     sts = new DenoiseState *[channels];
     if (!sts) {
         perror("malloc");
         return 1;
     }
-//    tmp = malloc(channels * FRAME_SIZE * sizeof(short));
     tmp = new short[channels * FRAME_SIZE];
+    outtmp = new short[channels * 160];
 
     if (!tmp) {
         perror("malloc");
@@ -56,7 +56,7 @@ int main() {
     f1 = fopen("ambientNoiseMixed.raw", "rb");
     fout = fopen("out.raw", "wb");
 
-    while (1) {
+    while (true) {
         fread(tmp, sizeof(short), channels * FRAME_SIZE, f1);
         if (feof(f1)) break;
         // set up input and output pointers
@@ -76,10 +76,10 @@ int main() {
                 in[idx0] = x[idx0];
             }
             resampling(in, 16000.0, 48000.0, out);
-            for (i = 0; i < 160; i++) tmp[i * channels + ci] = out[i];
+            for (i = 0; i < 160; i++) outtmp[i * channels + ci] = out[i];
         }
 
-        if (!first) fwrite(tmp, sizeof(short), channels * FRAME_SIZE, fout);
+        if (!first) fwrite(outtmp, sizeof(short), channels * 160, fout);
         first = 0;
     }
     for (i = 0; i < channels; i++)

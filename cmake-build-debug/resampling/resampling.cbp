@@ -8,24 +8,23 @@
 		<Option virtualFolders="CMake Files\;CMake Files\rnnoise\;CMake Files\resampling\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling"/>
+				<Option working_dir="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="resampling">
-				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/libresampling.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling"/>
+				<Option output="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/libresampling.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise"/>
-					<Add directory="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling"/>
+					<Add directory="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -35,21 +34,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 resampling"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 resampling"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="resampling/fast">
-				<Option output="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/libresampling.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling"/>
+				<Option output="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/libresampling.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise"/>
-					<Add directory="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling"/>
+					<Add directory="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -59,128 +57,128 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 resampling/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 resampling/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/cmake-build-debug/resampling/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/casyi.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/casyi.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/casyi.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/casyi.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/cmlri.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/cmlri.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/cmlri.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/cmlri.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/createFilter.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/createFilter.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/createFilter.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/createFilter.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/firls.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/firls.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/firls.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/firls.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/gammaln.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/gammaln.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/gammaln.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/gammaln.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/ipermute.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/ipermute.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/ipermute.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/ipermute.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mldivide.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/mldivide.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mldivide.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/mldivide.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mod.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/mod.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/mod.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/mod.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_data.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_data.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_data.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_data.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_initialize.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_initialize.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_initialize.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_initialize.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_rtwutil.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_rtwutil.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_rtwutil.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_rtwutil.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_terminate.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_terminate.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling_terminate.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/resampling_terminate.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetInf.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/rtGetInf.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetInf.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/rtGetInf.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetNaN.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/rtGetNaN.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rtGetNaN.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/rtGetNaN.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rt_nonfinite.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/rt_nonfinite.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/rt_nonfinite.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/rt_nonfinite.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xgeqp3.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/xgeqp3.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xgeqp3.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/xgeqp3.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xnrm2.cpp">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/xnrm2.cpp">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/xnrm2.h">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/xnrm2.h">
 			<Option target="resampling"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/rnnoise/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\rnnoise\"/>
 		</Unit>
-		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/abdul.ahad/Downloads/Rnnoise/Rnnoise-resampler/resampling/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\resampling\"/>
 		</Unit>
 	</Project>

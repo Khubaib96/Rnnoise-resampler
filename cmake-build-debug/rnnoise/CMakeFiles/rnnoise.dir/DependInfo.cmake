@@ -20,14 +20,11 @@ set(CMAKE_DEPENDS_CHECK_C
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "rnnoise_EXPORTS"
-  )
-
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../rnnoise"
+  "../rnnoise/include"
+  "../rnnoise/src"
   )
 
 # Targets to which this target links.

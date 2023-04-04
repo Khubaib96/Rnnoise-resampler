@@ -30,7 +30,7 @@
 
 #include <string.h>
 
-#include "../include/rnnoise-nu.h"
+#include "../include/rnnoise.h"
 
 /* This file is just a list of the built-in models and a way of fetching them.
  * Nothing fancy. */
@@ -46,7 +46,7 @@ static const char *model_names[] = {
 };
 
 extern const struct RNNModel
-    model_orig,
+    rnnoise_model_orig,
     model_cb,
     model_mp,
     model_bd,
@@ -54,7 +54,7 @@ extern const struct RNNModel
     model_sh;
 
 static const struct RNNModel *models[] = {
-    &model_orig,
+    &rnnoise_model_orig,
     &model_cb,
     &model_mp,
     &model_bd,

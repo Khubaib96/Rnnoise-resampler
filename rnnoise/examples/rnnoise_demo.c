@@ -25,88 +25,36 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include "../include/rnnoise-nu.h"
-
+#include "rnnoise.h"
 
 #define FRAME_SIZE 480
 
 int main(int argc, char **argv) {
-    int i, ci;
-    int first = 1;
-    argc = 5;
-    int channels;
-    float x[FRAME_SIZE];
-    short *tmp;
-    int sample_rate;
-    RNNModel *model = NULL;
-    DenoiseState **sts;
-    FILE *f1, *fout;
-    float max_attenuation;
-
-//    if (argc < 4) {
-//        fprintf(stderr, "usage: %s <sample rate> <chann els> <max attenuation dB> [model]\n", argv[0]);
-//        return 1;
-//    }
-
-    sample_rate = atoi("48000");
-    if (sample_rate <= 0) sample_rate = 48000;
-    channels = atoi("1");
-    if (channels < 1) channels = 1;
-    max_attenuation = pow(10, -atof("20") / 10);
-    model = rnnoise_get_model("sh");
-    if (!model) {
-        fprintf(stderr, "Model not found!\n");
-        return 1;
-    }
-    sts = malloc(channels * sizeof(DenoiseState *));
-    if (!sts) {
-        perror("malloc");
-        return 1;
-    }
-    tmp = malloc(channels * FRAME_SIZE * sizeof(short));
-    if (!tmp) {
-        perror("malloc");
-        return 1;
-    }
-    for (i = 0; i < channels; i++) {
-        sts[i] = rnnoise_create(model);
-        rnnoise_set_param(sts[i], RNNOISE_PARAM_MAX_ATTENUATION, max_attenuation);
-        rnnoise_set_param(sts[i], RNNOISE_PARAM_SAMPLE_RATE, sample_rate);
-    }
-
-
-    f1 = fopen("ambientNoiseMixed.raw", "rb");
-    fout = fopen("out.raw", "wb");
-
-
-    while (1) {
-        fread(tmp, sizeof(short), channels * FRAME_SIZE, f1);
-        if (feof(f1)) break;
-        // set up input and output pointers
-
-
-        for (ci = 0; ci < channels; ci++) {
-
-            for (i = 0; i < FRAME_SIZE; i++) x[i] = tmp[i * channels + ci];
-            rnnoise_process_frame(sts[ci], x, x);
-            for (i = 0; i < FRAME_SIZE; i++) tmp[i * channels + ci] = x[i];
-        }
-
-        if (!first) fwrite(tmp, sizeof(short), channels * FRAME_SIZE, fout);
-        first = 0;
-    }
-    for (i = 0; i < channels; i++)
-        rnnoise_destroy(sts[i]);
-
-
-    free(tmp);
-    free(sts);
-    fclose(f1);
-    fclose(fout);
-    return 0;
-
+  int i;
+  int first = 1;
+  float x[FRAME_SIZE];
+  FILE *f1, *fout;
+  DenoiseState *st;
+  st = rnnoise_create(NULL);
+  if (argc!=3) {
+    fprintf(stderr, "usage: %s <noisy speech> <output denoised>\n", argv[0]);
+    return 1;
+  }
+  f1 = fopen(argv[1], "rb");
+  fout = fopen(argv[2], "wb");
+  while (1) {
+    short tmp[FRAME_SIZE];
+    fread(tmp, sizeof(short), FRAME_SIZE, f1);
+    if (feof(f1)) break;
+    for (i=0;i<FRAME_SIZE;i++) x[i] = tmp[i];
+    rnnoise_process_frame(st, x, x);
+    for (i=0;i<FRAME_SIZE;i++) tmp[i] = x[i];
+    if (!first) fwrite(tmp, sizeof(short), FRAME_SIZE, fout);
+    first = 0;
+  }
+  rnnoise_destroy(st);
+  fclose(f1);
+  fclose(fout);
+  return 0;
 }

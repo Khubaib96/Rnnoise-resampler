@@ -47,9 +47,10 @@
 #include "config.h"
 #endif
 
+//#include "rnn.h"
+//#include "rnn_data.h"
 #include "../rnn.h"
 #include "../rnn_data.h"
-
 static const rnn_weight input_dense_weights[1008] = {
    -16, 13, 24, 36, -17, 5, 8, 55,
    19, 3, 36, -72, 41, 11, 7, 1,
