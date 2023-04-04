@@ -53,8 +53,8 @@ int main() {
     }
 
 
-    f1 = fopen("ambientNoiseMixed.raw", "rb");
-    fout = fopen("out.raw", "wb");
+    f1 = fopen("../ambientNoiseMixed.raw", "rb");
+    fout = fopen("../out.raw", "wb");
 
     while (true) {
         fread(tmp, sizeof(short), channels * FRAME_SIZE, f1);
