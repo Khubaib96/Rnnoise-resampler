@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/mnt/s/UpworkProjects/DavidAGC/finalCode/main.cpp
-iostream
--
+/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.cpp
 valarray
 -
+AudioProcessor.h
+/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.h
+
+/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.h
 rnnoise/include/rnnoise.h
 /mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/include/rnnoise.h
 resampling/resampling.h
 /mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/resampling.h
+
+/mnt/s/UpworkProjects/DavidAGC/finalCode/main.cpp
+iostream
+-
+AudioProcessor.h
+/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.h
 
 /mnt/s/UpworkProjects/DavidAGC/finalCode/resampling/coder_array.h
 cassert

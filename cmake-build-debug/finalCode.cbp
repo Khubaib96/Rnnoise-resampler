@@ -224,6 +224,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.cpp">
+			<Option target="finalCode"/>
+		</Unit>
+		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.h">
+			<Option target="finalCode"/>
+		</Unit>
 		<Unit filename="/mnt/s/UpworkProjects/DavidAGC/finalCode/main.cpp">
 			<Option target="finalCode"/>
 		</Unit>

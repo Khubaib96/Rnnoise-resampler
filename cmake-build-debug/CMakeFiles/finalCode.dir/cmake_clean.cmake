@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/finalCode.dir/AudioProcessor.cpp.o"
   "CMakeFiles/finalCode.dir/main.cpp.o"
   "finalCode"
   "finalCode.pdb"

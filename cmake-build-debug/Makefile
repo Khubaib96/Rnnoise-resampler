@@ -195,6 +195,33 @@ resampling/fast:
 	$(MAKE) -f resampling/CMakeFiles/resampling.dir/build.make resampling/CMakeFiles/resampling.dir/build
 .PHONY : resampling/fast
 
+AudioProcessor.o: AudioProcessor.cpp.o
+
+.PHONY : AudioProcessor.o
+
+# target to build an object file
+AudioProcessor.cpp.o:
+	$(MAKE) -f CMakeFiles/finalCode.dir/build.make CMakeFiles/finalCode.dir/AudioProcessor.cpp.o
+.PHONY : AudioProcessor.cpp.o
+
+AudioProcessor.i: AudioProcessor.cpp.i
+
+.PHONY : AudioProcessor.i
+
+# target to preprocess a source file
+AudioProcessor.cpp.i:
+	$(MAKE) -f CMakeFiles/finalCode.dir/build.make CMakeFiles/finalCode.dir/AudioProcessor.cpp.i
+.PHONY : AudioProcessor.cpp.i
+
+AudioProcessor.s: AudioProcessor.cpp.s
+
+.PHONY : AudioProcessor.s
+
+# target to generate assembly for a file
+AudioProcessor.cpp.s:
+	$(MAKE) -f CMakeFiles/finalCode.dir/build.make CMakeFiles/finalCode.dir/AudioProcessor.cpp.s
+.PHONY : AudioProcessor.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -237,6 +264,9 @@ help:
 	@echo "... finalCode"
 	@echo "... rnnoise"
 	@echo "... resampling"
+	@echo "... AudioProcessor.o"
+	@echo "... AudioProcessor.i"
+	@echo "... AudioProcessor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

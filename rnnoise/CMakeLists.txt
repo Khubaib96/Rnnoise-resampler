@@ -20,7 +20,5 @@ add_library(rnnoise STATIC
         src/models/sh.c
         )
 
-#install(TARGETS rnnoise DESTINATION ${distribution_DI}/usr/lib)
-install(TARGETS rnnoise DESTINATION lib)
 
-#target_link_libraries(rnnoise)
+install(TARGETS rnnoise DESTINATION lib)
