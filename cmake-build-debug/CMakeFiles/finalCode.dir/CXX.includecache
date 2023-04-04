@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.cpp
-valarray
--
-AudioProcessor.h
-/mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.h
-
 /mnt/s/UpworkProjects/DavidAGC/finalCode/AudioProcessor.h
 rnnoise/include/rnnoise.h
 /mnt/s/UpworkProjects/DavidAGC/finalCode/rnnoise/include/rnnoise.h
