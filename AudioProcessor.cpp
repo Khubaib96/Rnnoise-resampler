@@ -6,7 +6,7 @@ AudioProcessor::AudioProcessor(int samplerate, int channels, int outputFrequency
     // Initialize member variables
     this->sample_rate = samplerate;
     this->channels = channels;
-    this->max_attenuation = pow(10, 10 / 10);
+    this->max_attenuation = pow(10, 20 / 10);
     this->model = rnnoise_get_model("sh");
     this->sts = new DenoiseState *[channels];
     this->inputFreq = inputFrequency;
