@@ -72,7 +72,9 @@
 
 /* We don't allow max attenuation to be more than 60dB */
 #define MIN_MAX_ATTENUATION 0.000001f
-
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 #ifndef TRAINING
 #define TRAINING 0

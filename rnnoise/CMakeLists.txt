@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-
+set(CMAKE_C_STANDARD 99)
 set(distribution_DI ${CMAKE_CURRENT_SOURCE_DIR}/../../../../distribution/test)
 
 include_directories(include)

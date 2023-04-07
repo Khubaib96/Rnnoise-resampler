@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "rnnoise",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rnnoise-Debug-af3d4d020aa651e5e3c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "rnnoise",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "resampling",
+					"jsonFile" : "directory-resampling-Debug-a93825b5484729ef4d8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "resampling",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "finalCode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "finalCode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-finalCode-Debug-9bb1c66ddf2bcddbda17.json",
+					"name" : "finalCode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "resampling::@c8fe45f390115bab2a3c",
+					"jsonFile" : "target-resampling-Debug-5a824cca41251e7fdf6a.json",
+					"name" : "resampling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rnnoise::@51c249f08d48b9ae4572",
+					"jsonFile" : "target-rnnoise-Debug-f3972c41cad70aceab6f.json",
+					"name" : "rnnoise",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "S:/UpworkProjects/DavidAGC/finalCode/cmake-build-debug",
+		"source" : "S:/UpworkProjects/DavidAGC/finalCode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

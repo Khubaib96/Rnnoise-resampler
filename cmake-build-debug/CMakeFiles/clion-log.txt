@@ -1,4 +1,4 @@
-C:\windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/s/UpworkProjects/DavidAGC/finalCode -B /mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"
+C:\Users\Khubaib\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Khubaib/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S S:\UpworkProjects\DavidAGC\finalCode -B S:\UpworkProjects\DavidAGC\finalCode\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug
+-- Build files have been written to: S:/UpworkProjects/DavidAGC/finalCode/cmake-build-debug

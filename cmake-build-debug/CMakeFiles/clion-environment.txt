@@ -1,3 +1,4 @@
-ToolSet: Ubuntu 20.04.5 LTS (local)Options: 
+ToolSet: 17.0 (local)@C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools
+Options: 
 
-Options:
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/Khubaib/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe

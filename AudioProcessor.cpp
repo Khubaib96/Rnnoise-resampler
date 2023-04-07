@@ -1,4 +1,5 @@
 #include <valarray>
+#include <memory>
 #include "AudioProcessor.h"
 
 // Constructor for the AudioProcessor class
@@ -38,8 +39,8 @@ AudioProcessor::~AudioProcessor() {
     // Free memory allocated for output buffer
     free(outtmp);
     // Destroy input and output buffers
-    std::destroy(this->in.begin(), this->in.end());
-    std::destroy(this->out.begin(), this->out.end());
+    in.clear();
+    out.clear();
 }
 
 // Process audio using RNNoise and resampling
