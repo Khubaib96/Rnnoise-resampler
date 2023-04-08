@@ -1,4 +1,18 @@
-C:\Users\Khubaib\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Khubaib/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S S:\UpworkProjects\DavidAGC\finalCode -B S:\UpworkProjects\DavidAGC\finalCode\cmake-build-debug
+C:\windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/s/UpworkProjects/DavidAGC/finalCode -B /mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug"
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: S:/UpworkProjects/DavidAGC/finalCode/cmake-build-debug
+-- Build files have been written to: /mnt/s/UpworkProjects/DavidAGC/finalCode/cmake-build-debug

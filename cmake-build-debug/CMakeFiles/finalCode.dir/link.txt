@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/finalCode.dir/main.cpp.o CMakeFiles/finalCode.dir/AudioProcessor.cpp.o  -o finalCode  rnnoise/librnnoise.a resampling/libresampling.a 
