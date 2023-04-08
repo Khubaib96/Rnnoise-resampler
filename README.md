@@ -18,8 +18,17 @@ int main() {
     int first = 1;
     FILE *f1, *fout;
     // Open input and output files for reading and writing, respectively
-    f1 = fopen("../ambientNoiseMixed.raw", "rb");
-    fout = fopen("../out.raw", "wb");
+    f1 = fopen("ambientNoiseMixed.raw", "rb");
+    if (f1 == NULL) {
+        printf("Error: File ../ambientNoiseMixed.raw could not be opened\n");
+        return 1;
+    }
+
+    fout = fopen("out.raw", "wb");
+    if (fout == NULL) {
+        printf("Error: File ../out.raw could not be opened\n");
+        return 1;
+    }
     // Allocate memory for temporary input buffer
     short *tmp = new short[FRAME_SIZE];
     short *out;
