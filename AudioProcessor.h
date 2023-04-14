@@ -12,13 +12,23 @@
 
 class AudioProcessor {
 public:
-    AudioProcessor(int samplerate, int channels, int outputFrequency, int inputFrequency);
+    AudioProcessor(int samplerate, int channels, int outputFrequency);
 
     virtual ~AudioProcessor();
 
     short *process(const short *input);
 
     int getOutputBufferSize();
+
+    int getChannels() const
+    {
+        return this->channels;
+    }
+
+    int getFrameSize() const
+    {
+        return static_cast<int>((10.0 / 1000.0) * sample_rate);;
+    }
 
 private:
     // Private member variables and helper functions
@@ -34,6 +44,10 @@ private:
     // for resampler
     coder::array<double, 1U> in;
     coder::array<double, 1U> out;
+
+    //for input resampler
+    coder::array<double, 1U> originalIn;
+    coder::array<double, 1U> originalOut;
 
     int outputFreq;
     int inputFreq;
