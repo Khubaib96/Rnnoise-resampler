@@ -1,17 +1,16 @@
 #include <iostream>
 #include "AudioProcessor.h"
 
-#define FRAME_SIZE 480
 
 // Main function for the audio processing application
 int main() {
     // Create an instance of the AudioProcessor class with desired parameters
-    AudioProcessor *audioProcessor = new AudioProcessor(44100, 2, 16000);
+    AudioProcessor *audioProcessor = new AudioProcessor(16000, 2, 16000);
     int first = 1;
     int frameSize = audioProcessor->getFrameSize();
     FILE *f1, *fout;
     // Open input and output files for reading and writing, respectively
-    f1 = fopen("../sources.raw", "rb");
+    f1 = fopen("../sources_stereo.raw", "rb");
     if (f1 == NULL) {
         printf("Error: File ../ambientNoiseMixed.raw could not be opened\n");
         return 1;
@@ -23,8 +22,8 @@ int main() {
         return 1;
     }
     // Allocate memory for temporary input buffer
-    short *tmp = new short[audioProcessor->getChannels() * frameSize];
-    short *out = new short[audioProcessor->getChannels() * audioProcessor->getOutputBufferSize()];
+    short *tmp = new short[frameSize];
+    short *out;
     // Read input audio in chunks and process it using the AudioProcessor
     while (true) {
         fread(tmp, sizeof(short), audioProcessor->getChannels() * frameSize, f1);
