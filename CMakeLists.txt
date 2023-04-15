@@ -3,7 +3,7 @@ project(finalCode)
 
 
 # Set C++ standard to C++17
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 
 include_directories(rnnoise)
